@@ -1,0 +1,27 @@
+# Raw sequencing data
+*.sra
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# Reference indexes
+*.ht2
+*.ht2l
+*.bt2
+*.bt2l
+*.fai
+
+# Temporary files
+*.tmp
+*.log
+
+# R and Python temporary files
+.Rhistory
+__pycache__/
+*.pyc

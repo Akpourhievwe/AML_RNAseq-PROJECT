@@ -1,0 +1,15 @@
+name: rnaseq
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.12
+  - sra-tools
+  - samtools
+  - hisat2
+  - subread
+  - fastqc
+  - multiqc
+  - seqtk
+  - trimmomatic
+prefix: /home/gbliss4life/miniforge3/envs/rnaseq
